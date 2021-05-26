@@ -6,9 +6,9 @@
     "frontend": {
       "projectType": "application",
       "schematics": {
-        "inlineTemplate":false,
-        "inlineStyle":false,
-        "skipTests":true
+        "inlineTemplate": false,
+        "inlineStyle": false,
+        "skipTests": true
       },
       "root": "",
       "sourceRoot": "src",
@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -82,6 +83,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "frontend"
 }
