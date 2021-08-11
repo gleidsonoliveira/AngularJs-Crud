@@ -22,7 +22,7 @@ ng add @angular/material
 
 6 - Criando o primeiro componentente do angular 
 ng g c components/template/header
-
+ng g c admin/giftvoucherdetails
 7 - Criando o componente nav
 ng g c components/template/nav
 
@@ -33,6 +33,18 @@ import { MatListModule } from '@angular/material/list';
 8 - Criando as views 
 ng g c views/home
 ng g c views/product-crud 
+
+9 - Criação do componente criação do Produto
+ng g c components/product/product-create
+
+10 - Criação do serviço
+ng g s components/product/product 
+
+
+
+
+
+
 
 
 --------------------------------------------------------------------------------------------------------
